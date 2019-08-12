@@ -1,0 +1,16 @@
+{
+    "name": "learnthreejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "browserify ./src/quanjing.js -o ./build/bundle.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "three": "^0.107.0"
+    }
+}
